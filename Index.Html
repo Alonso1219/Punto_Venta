@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntos de Venta con LocalStorage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .btn-primary {
+            background: #0056b3;
+            border: none;
+        }
+        .servicio-icon {
+            font-size: 50px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sección Hero -->
+    <header class="hero">
+        <h1>🚀 Potencia tu negocio con un punto de venta en la web</h1>
+        <p>Ofrezco desarrollo de sistemas de venta con LocalStorage y tecnología web.</p>
+        <a href="#contacto" class="btn btn-light btn-lg">Contáctame</a>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section class="container text-center my-5">
+        <h2>¿Qué ofrezco? 💻</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <i class="servicio-icon bi bi-cart"></i>
+                <h4>Sistema de ventas</h4>
+                <p>Registro de productos, clientes y ventas sin necesidad de servidores.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="servicio-icon bi bi-cloud"></i>
+                <h4>Almacenamiento Local</h4>
+                <p>Los datos se guardan en el navegador con LocalStorage.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="servicio-icon bi bi-bar-chart"></i>
+                <h4>Reportes y estadísticas</h4>
+                <p>Visualiza informes de ventas con gráficos interactivos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>📩 Contáctame</h2>
+            <p>Escríbeme para más información sobre tu sistema de ventas.</p>
+            <form action="https://formspree.io/f/xrbpydbd" method="POST" class="row g-3 justify-content-center">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" name="nombre" placeholder="Tu Nombre" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" name="correo" placeholder="Tu Correo" required>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" rows="4" name="mensaje" placeholder="Tu Mensaje" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>&copy; 2025 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
